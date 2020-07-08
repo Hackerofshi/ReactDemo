@@ -22,6 +22,9 @@ function App() {
         <div>
           <a href="#/pages/detail">去detail</a>
         </div>
+        <div>
+          <a href="#/pages/DemoAnt">DemoAnt</a>
+        </div>
         <Button
           onClick={() => {
             alert("fff");
