@@ -26,9 +26,6 @@ export default class Detail extends React.Component {
             Primary Button
           </Button>
         </div>
-        <div className="h2">
-          <p>this is a paragragh.</p>
-        </div>
       </div>
     );
   }
