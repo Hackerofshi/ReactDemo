@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.less";
-import DemoAnt from "../pages/DemoAnt";
+import DemoNav from "../pages/DemoNav";
 import { Row, Col } from 'antd';
 
 export default class MainLayout extends React.Component {
@@ -10,7 +10,7 @@ export default class MainLayout extends React.Component {
         <div className="app-content">
           <Row type="flex" justify="center">
             <Col span={5}>
-              <DemoAnt />
+              <DemoNav />
             </Col>
             <Col span={10}>{this.props.children}</Col>
           </Row>

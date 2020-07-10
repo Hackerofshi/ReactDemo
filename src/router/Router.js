@@ -1,8 +1,9 @@
 import React from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import App from "../App";
-import Detail from "../pages/Detail";
-import DemoAnt from "../pages/DemoAnt";
+import Detail from "../pages/Details";
+import DemoAnt from "../pages/DemoNav";
+import DemoList from "../pages/DemoList";
 import MainLayout from "./MainLayout";
 
 const BasicRoute = () => (
@@ -21,6 +22,7 @@ const BasicRoute = () => (
               <Route path="/App" component={App} />
               <Route path="/pages/Detail" component={Detail}></Route>
               <Route path="/pages/DemoAnt" component={DemoAnt}></Route>
+              <Route path="/pages/DemoList" component={DemoList}></Route>
             </Switch>
           )}
         />
