@@ -11,9 +11,19 @@ import {
   UserOutlined,
 } from "@ant-design/icons";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
 
 const { Header, Content, Footer, Sider } = Layout;
 const { SubMenu } = Menu;
+
+const Title = styled.h1`
+  font-size: 1.5em;
+  text-align: center;
+  color: palevioletred;
+`;
+const Button = styled.button`
+  background-color: papayawhip;
+`;
 
 export default class SiderDemo extends React.Component {
   state = {
@@ -34,6 +44,7 @@ export default class SiderDemo extends React.Component {
           onCollapse={this.onCollapse}
         >
           <div className="logo" />
+          <Title>666</Title>
           <Menu theme="dark" defaultSelectedKeys={["1"]} mode="inline">
             <Menu.Item key="1" icon={<PieChartOutlined />}>
               <NavLink to={"/App"}>App</NavLink>
@@ -48,7 +59,12 @@ export default class SiderDemo extends React.Component {
               <Menu.Item key="4">
                 <NavLink to={"/pages/DemoLayout"}>DemoLayout</NavLink>
               </Menu.Item>
-              <Menu.Item key="5">Alex</Menu.Item>
+              <Menu.Item key="5">
+                <NavLink to={"/pages/styled/DemoStyled"}>DemoStyled</NavLink>
+              </Menu.Item>
+              <Menu.Item key="5">
+                <NavLink to={"/pages/styled/DemoStyled1"}>DemoStyled1</NavLink>
+              </Menu.Item>
             </SubMenu>
             <SubMenu key="sub2" icon={<TeamOutlined />} title="Team">
               <Menu.Item key="6">Team 1</Menu.Item>
