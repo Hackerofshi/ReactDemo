@@ -45,7 +45,9 @@ export default class SiderDemo extends React.Component {
               <Menu.Item key="3">
                 <NavLink to={"/pages/DemoList"}>DemoList</NavLink>
               </Menu.Item>
-              <Menu.Item key="4">Bill</Menu.Item>
+              <Menu.Item key="4">
+                <NavLink to={"/pages/DemoLayout"}>DemoLayout</NavLink>
+              </Menu.Item>
               <Menu.Item key="5">Alex</Menu.Item>
             </SubMenu>
             <SubMenu key="sub2" icon={<TeamOutlined />} title="Team">

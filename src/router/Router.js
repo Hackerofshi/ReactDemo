@@ -4,6 +4,7 @@ import App from "../App";
 import Detail from "../pages/Details";
 import DemoAnt from "../pages/DemoNav";
 import DemoList from "../pages/DemoList";
+import DemoLayout from "../pages/DemoLayout";
 import MainLayout from "./MainLayout";
 
 const BasicRoute = () => (
@@ -23,6 +24,7 @@ const BasicRoute = () => (
               <Route path="/pages/Detail" component={Detail}></Route>
               <Route path="/pages/DemoAnt" component={DemoAnt}></Route>
               <Route path="/pages/DemoList" component={DemoList}></Route>
+              <Route path="/pages/DemoLayout" component={DemoLayout}></Route>
             </Switch>
           )}
         />

@@ -82,7 +82,7 @@ export default class DemoList extends React.Component {
           <List.Item
             actions={[
               <a key="list-loadmore-edit">edit</a>,
-              
+
               <a key="list-loadmore-more">more</a>,
             ]}
           >
