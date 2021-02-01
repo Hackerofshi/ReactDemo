@@ -1,24 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-import styled from 'styled-components'
-
-const title = styled.h1`
-    font-size:1.5em;
-    text-align:center;
-    color: palevioletred;
-`
-
-export default class DemoStyled extends React.Component {
-
-
-    render(){
-
-
-    }
-
-}
-=======
 import styled from "styled-components";
 import { keyframes, ThemeProvider} from "styled-components";
 const Button = styled.button`
@@ -164,4 +144,3 @@ export default class DemoStyled extends React.Component {
     );
   }
 }
->>>>>>> 731003766854d8c8d16d3b5bc562f1b6540597da
