@@ -16,7 +16,7 @@
     "reqwest": "^2.0.5",
     "styled-components": "^5.1.1",
     "axios": "^0.21.0",
-    "qs": "^6.9.3"
+    "qs": "^6.5.3"
   },
   "scripts": {
     "start": "react-scripts start",
